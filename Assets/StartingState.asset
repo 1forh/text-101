@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaf69a3e836b4a2e983fd6eadee40a3, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'It''s late at night and there is a bad storm. Suddenly the power in
+    your apartment goes out.
+
+
+    For some reason you get bored and decide to go
+    for a walk in the storm. You walk down the street and come to a house.
+
+
+    You
+    know it''s a haunted house a decide to walk in cause you do that kind of thing.
+
+    Entering
+    the front door, you''re presented with a white room and two doors in front of
+    you.
+
+
+    Which door do you enter?'
+  nextStates:
+  - {fileID: 11400000, guid: 15625bc0a1d1a421b8aaa82e6dfb33f0, type: 2}
+  - {fileID: 11400000, guid: d45a0fb9eb2df48e69d922d1ce57b87a, type: 2}
