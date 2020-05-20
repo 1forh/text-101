@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaf69a3e836b4a2e983fd6eadee40a3, type: 3}
+  m_Name: A2.BlueRoom
+  m_EditorClassIdentifier: 
+  storyText: "You enter a blue room. Upon entering the room, a chill goes down your
+    spine. \n\nYou see two doors in front of you. One door is yellow. The other door
+    is purple.\n\nWhich door do you enter?\n\nPress 1 for the yellow door.\nPress
+    2 for the purple door."
+  nextStates:
+  - {fileID: 11400000, guid: f45087c5a55bf4f758a216574b4e63d3, type: 2}
+  - {fileID: 11400000, guid: 5e57a062b82e44b1b9d550b76907cefe, type: 2}

@@ -238,8 +238,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 267}
-  m_SizeDelta: {x: 294.9721, y: 87.36319}
+  m_AnchoredPosition: {x: -0.0000076293945, y: 267}
+  m_SizeDelta: {x: 412.15424, y: 87.36319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643980748
 MonoBehaviour:
@@ -273,7 +273,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Text101
+  m_Text: 'The Choice
+
+'
 --- !u!222 &643980749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -568,7 +570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyText: {fileID: 2033061116}
-  startingState: {fileID: 11400000, guid: 135e5d785aadd49a689e1df6c7f5ed4e, type: 2}
+  startingState: {fileID: 11400000, guid: f79aa05b2835148ecb82d46fa2f70c95, type: 2}
 --- !u!1 &2033061114
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,10 +629,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -638,7 +640,27 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'It''s late at night and there is a bad storm. Suddenly the power in your
+    apartment goes out.
+
+
+    You get bored and decide to go for a walk in the storm.
+    You walk down the street and come to a house. You know this particular house
+    is haunted so naturally you walk in.
+
+
+    Entering the front door, you''re presented
+    with a white room and two doors in front of you. One of the doors is red. The
+    other door is blue.
+
+
+    Which door do you enter?
+
+
+    Press 1 to enter the
+    red door.
+
+    Press 2 to enter the blue door.'
 --- !u!222 &2033061117
 CanvasRenderer:
   m_ObjectHideFlags: 0

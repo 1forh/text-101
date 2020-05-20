@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaf69a3e836b4a2e983fd6eadee40a3, type: 3}
+  m_Name: A5.ManRoom
+  m_EditorClassIdentifier: 
+  storyText: "You enter a room with a man standing in the center. He says you are
+    going to die. You have a choice. \n\nHow would you like the man to kill you?\n\nPress
+    1 to be shot in the head.\nPress 2 for the electric chair."
+  nextStates:
+  - {fileID: 11400000, guid: 4d6934d6c0696496ba58a290f95f90d8, type: 2}
+  - {fileID: 11400000, guid: 3a94a3f6969eb44adade7a95d2db1d55, type: 2}
